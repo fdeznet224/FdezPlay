@@ -12,6 +12,20 @@
 .swiftpm/
 migrate_working_dir/
 
+
+build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+android/local.properties
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+.env
+*.jks
+*.keystore
+key.properties
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -43,3 +57,5 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+*.zip
+*.zip
