@@ -1,0 +1,20 @@
+Fase 43 - Motor de búsqueda local indexado
+
+Esta fase cambia la búsqueda para que trabaje como las apps comerciales:
+
+- Se crea un índice liviano de canales, películas y series.
+- Películas y series ya no comparan objetos completos en cada letra.
+- Móvil puede filtrar por letra con mucha menos carga.
+- TV mantiene botón BUSCAR, pero usa el mismo índice liviano.
+- Inicio precalienta el índice en segundo plano para que la búsqueda sea rápida.
+- No modifica reproductores, login, descargas ni AndroidManifest.
+
+Aplicar desde la raíz del proyecto:
+
+unzip -o FdezPlay_Busqueda_Indexada_Instantanea_Fase43.zip -d .
+flutter clean
+flutter pub get
+flutter run
+
+Nota:
+La primera búsqueda puede tardar un poco si el catálogo completo todavía no terminó de cargarse en segundo plano. Después de eso debe sentirse mucho más instantánea.

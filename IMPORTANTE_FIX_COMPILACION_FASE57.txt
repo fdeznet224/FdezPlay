@@ -1,0 +1,12 @@
+FdezPlay - Fase 57
+Fix de compilación del Inicio TV estable.
+
+Corrige:
+- Error: Can't find ']' to match '[' en mobile_home_screen.dart línea 1694.
+- No cambia reproductores, Cast/DLNA, búsqueda, descargas ni AndroidManifest.
+
+Aplicar:
+unzip -o FdezPlay_TV_Inicio_Estable_Fix_Compilacion_Fase57.zip -d .
+flutter clean
+flutter pub get
+flutter run

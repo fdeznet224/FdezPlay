@@ -1,0 +1,20 @@
+Fase 13 - Categorías en español
+
+Este ZIP mantiene las correcciones de producción de la Fase 12 y agrega traducción visual automática de categorías para México.
+
+Cambios:
+- TV Online: categorías traducidas/limpiadas visualmente.
+- Películas: categorías traducidas/limpiadas visualmente.
+- Series: categorías traducidas/limpiadas visualmente.
+- No se cambian IDs, URLs ni categorías originales del proveedor.
+- La búsqueda también puede encontrar por el nombre traducido de la categoría.
+
+Ejemplos:
+- New Release Action -> Estrenos de Acción
+- Action Movies -> Películas de Acción
+- Kids -> Infantil
+- Sports -> Deportes
+- News -> Noticias
+
+Dependencia requerida por Fase 12:
+flutter pub add wakelock_plus

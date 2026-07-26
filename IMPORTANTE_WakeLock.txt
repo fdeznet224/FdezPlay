@@ -1,0 +1,11 @@
+Para que la corrección de pantalla encendida compile, agrega la dependencia:
+
+flutter pub add wakelock_plus
+
+Luego compila:
+
+flutter clean
+flutter pub get
+flutter build apk --release --split-per-abi
+
+Esta fase mantiene la pantalla encendida solamente mientras estás en los reproductores de TV, películas o series. Al salir del reproductor o mandar la app al fondo, el bloqueo se libera.

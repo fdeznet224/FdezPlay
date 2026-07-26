@@ -1,0 +1,25 @@
+FdezPlay - Fase 17: Mis descargas mejorado + pausar/reanudar
+
+Aplicar desde la raíz del proyecto:
+
+unzip -o FdezPlay_Descargas_UI_Pausa_Reanudar_Fase17.zip -d .
+
+Dependencias necesarias de fases anteriores:
+
+flutter pub add path_provider
+flutter pub add wakelock_plus
+
+Compilar/probar:
+
+flutter clean
+flutter pub get
+flutter run
+
+Notas:
+- Mis descargas conserva la navegación principal limpia; se abre desde Ajustes y desde el bloque Descargado en Inicio.
+- La interfaz fue rediseñada para coincidir más con el estilo oscuro de FdezPlay.
+- Ahora cada descarga en progreso permite PAUSAR, REANUDAR y CANCELAR.
+- Al pausar se conserva el archivo .part para continuar después.
+- Si el servidor IPTV acepta descargas por rangos HTTP, la descarga se reanuda desde donde quedó.
+- Si el servidor no acepta rangos HTTP, la app reintenta desde cero al reanudar.
+- Esta fase no implementa Picture-in-Picture ni reproducción en segundo plano; eso requiere android/.

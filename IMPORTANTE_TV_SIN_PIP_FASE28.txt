@@ -1,0 +1,10 @@
+Fase 28 - TV sin Picture-in-Picture
+
+Esta fase desactiva el reproductor minimizado solamente cuando el modo seleccionado es TV.
+
+Comportamiento esperado:
+- Móvil: conserva Picture-in-Picture/minimizado.
+- Tablet: conserva Picture-in-Picture/minimizado.
+- TV / Google TV: no entra a ventana flotante; al salir con Home o cerrar la app, el reproductor se pausa/detiene según el ciclo de vida normal de Android.
+
+No elimina la configuración nativa de AndroidManifest porque móvil y tablet todavía pueden usar PiP.

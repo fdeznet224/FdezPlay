@@ -1,0 +1,13 @@
+FDEZPLAY - INICIO PROFESIONAL
+
+1. Coloca este ZIP en la raíz del proyecto.
+2. Ejecuta:
+
+   unzip -o FdezPlay_inicio_profesional.zip -d .
+   flutter analyze
+   flutter run
+
+La actualización reemplaza solamente:
+lib/features/home/presentation/mobile/mobile_home_screen.dart
+
+No modifica TV, Películas, Series, Favoritos, Ajustes ni los reproductores.

@@ -1,0 +1,14 @@
+Fase 51 - Ajustes premium + arranque más suave
+
+Cambios:
+- Rediseño completo de Ajustes con estilo oscuro premium.
+- Se eliminaron líneas visuales amarillas/feas del diseño anterior.
+- Preferencias de reproducción quedan agrupadas y claras: audio, estabilidad, calidad TV, subtítulos y siguiente episodio.
+- En TV los elementos de Ajustes usan foco neón.
+- Se evita precalentar el índice de búsqueda inmediatamente al entrar al Inicio para reducir el pequeño bloqueo después del splash.
+
+Aplicar:
+unzip -o FdezPlay_Ajustes_Premium_Arranque_Suave_Fase51.zip -d .
+flutter clean
+flutter pub get
+flutter run

@@ -1,0 +1,10 @@
+FdezPlay Fase 59 - Android TV / Onn ultra ligero
+
+Corrección para bloqueo en Onn Stick:
+- El Inicio TV ya no carga posters/imágenes cacheadas en las filas.
+- Las tarjetas TV usan diseño de texto/gradiente para evitar bloqueo del cache SQLite de imágenes.
+- La búsqueda TV ya no carga posters/covers/logos al mostrar resultados.
+- Se reducen resultados y tamaños de filas en TV.
+- El móvil conserva las imágenes y el diseño premium.
+
+Después de aplicar, es recomendable limpiar datos de la app en el Onn si el cache anterior quedó corrupto.

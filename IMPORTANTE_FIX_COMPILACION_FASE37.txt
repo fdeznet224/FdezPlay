@@ -1,0 +1,13 @@
+Fase 37 - Fix compilación Inicio Tendencias
+
+Corrige el error:
+Type 'IptvCategory' not found
+
+El problema era que mobile_home_screen.dart usaba IptvCategory para elegir categorías de Inicio, pero faltaba importar el modelo:
+shared/models/iptv_category.dart
+
+Aplicar desde la raíz del proyecto:
+unzip -o FdezPlay_Fix_Compilacion_IptvCategory_Fase37.zip -d .
+flutter clean
+flutter pub get
+flutter run

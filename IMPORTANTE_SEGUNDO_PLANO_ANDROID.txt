@@ -1,0 +1,24 @@
+FASE 19 - Descargas en segundo plano para FdezPlay
+
+Esta fase agrega un Foreground Service nativo de Android para mantener vivas las descargas mientras cambias a otra app.
+
+Archivos incluidos:
+- android/app/src/main/AndroidManifest.xml
+- android/app/src/main/kotlin/com/fdezdev/fdezplay/MainActivity.kt
+- android/app/src/main/kotlin/com/fdezdev/fdezplay/FdezDownloadForegroundService.kt
+- lib/features/downloads/data/download_foreground_service.dart
+- lib/features/downloads/data/offline_download_service.dart
+
+Importante:
+- El servicio muestra una notificación mientras hay descargas activas.
+- Pausar/Reanudar sigue funcionando desde Mis descargas.
+- Si cierras la app completamente desde recientes o el sistema mata el proceso, la descarga puede detenerse. Para descarga 100% independiente incluso con app cerrada habría que migrar a DownloadManager o WorkManager en otra fase.
+- En Android 13+ puede ser necesario permitir notificaciones para ver la notificación de descarga.
+
+Aplicar desde la raíz del proyecto:
+unzip -o FdezPlay_Descargas_Segundo_Plano_Android_Fase19.zip -d .
+
+Luego:
+flutter clean
+flutter pub get
+flutter run

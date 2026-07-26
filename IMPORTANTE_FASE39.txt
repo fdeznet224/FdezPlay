@@ -1,0 +1,15 @@
+Fase 39 - Buscador optimizado y sin congelamiento
+
+Cambios:
+- El buscador global de TV ya no agrupa todo el catálogo completo antes de filtrar.
+- Primero filtra coincidencias rápidas por lotes y luego agrupa solo los resultados encontrados.
+- Se limita el número inicial de resultados para no saturar la TV.
+- Se oculta el teclado antes de ejecutar la búsqueda y no se reconstruye la pantalla por cada letra.
+- Se refuerza el foco de resultados después de buscar.
+- Películas y Series en móvil también usan filtro rápido para evitar bloqueo al buscar en catálogos grandes.
+
+Aplicar desde la raíz del proyecto:
+unzip -o FdezPlay_Busqueda_Rapida_Sin_Congelar_Fase39.zip -d .
+flutter clean
+flutter pub get
+flutter run

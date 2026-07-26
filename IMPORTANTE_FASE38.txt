@@ -1,0 +1,14 @@
+Fase 38 - Busqueda estable y navegable
+
+Cambios:
+- Busqueda global TV con navegación controlada por estado, no por foco automatico de ListView.
+- Permite moverse entre resultados con flechas izquierda/derecha y entre secciones con arriba/abajo.
+- Reduce bloqueos: agrupa y cachea canales/peliculas/series una vez por pantalla de busqueda.
+- Limita resultados visibles para no saturar TV.
+- En móvil, busqueda de peliculas y series espera 700ms antes de filtrar para evitar trabas al escribir.
+
+Aplicar:
+unzip -o FdezPlay_Busqueda_Estable_Navegable_Fase38.zip -d .
+flutter clean
+flutter pub get
+flutter run

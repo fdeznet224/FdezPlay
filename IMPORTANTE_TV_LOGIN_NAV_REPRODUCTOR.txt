@@ -1,0 +1,35 @@
+Fase 22 - Correcciones TV Login / Navegación / Reproductor
+
+Cambios incluidos:
+
+1) Login en Android TV / Google TV
+- Usuario pasa a contraseña con siguiente.
+- En contraseña, al presionar listo/siguiente el teclado se cierra y el foco pasa a INICIAR SESIÓN.
+- Desde INICIAR SESIÓN, flecha arriba enfoca el ojo de contraseña.
+- El ojo de contraseña puede activarse con OK/Enter.
+- Flecha izquierda desde el ojo vuelve al campo contraseña.
+
+2) Navegación de Películas y Series con control remoto
+- Las tarjetas usan navegación explícita por filas y columnas.
+- Flecha derecha/izquierda se mueve dentro de la fila.
+- Flecha arriba/abajo cambia de fila sin brincar a categorías.
+- Scroll automático para mantener visible la tarjeta enfocada.
+- Se evita que el foco salte al buscador o categorías mientras se navega el catálogo en modo TV.
+
+3) Reproductor de Películas y Series
+- Al presionar una flecha se muestran los controles y el foco cae en reproducir/pausar.
+- Desde reproducir/pausar, flecha arriba sube a Audio/Subtítulos.
+- En la parte superior, flecha izquierda/derecha se mueve entre Atrás, Audio y Subtítulos.
+- Flecha abajo regresa al botón reproducir/pausar.
+- En series también se puede mover entre episodio anterior, reproducir/pausar y siguiente.
+
+Aplicar desde la raíz del proyecto:
+unzip -o FdezPlay_TV_Login_Navegacion_Reproductor_Fase22.zip -d .
+
+Después ejecutar:
+flutter clean
+flutter pub get
+flutter run
+
+Nota:
+Si el reproductor de película o serie sigue sin abrir, revisa el log exacto de Flutter/VLC porque puede ser un error diferente de URL, permisos, dependencia o pista multimedia.

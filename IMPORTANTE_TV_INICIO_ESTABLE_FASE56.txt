@@ -1,0 +1,12 @@
+FdezPlay - Fase 56 - Inicio estable para Android TV
+
+Corrige el problema en modo TV donde la card grande de Recién agregado ocupaba demasiado espacio,
+trababa la navegación y podía provocar cierre de la app.
+
+Cambios:
+- En Android TV la card superior queda compacta.
+- En Android TV se desactiva la rotación automática de imágenes grandes para reducir memoria/trabas.
+- Se bajó el tamaño de caché de imagen del hero en TV.
+- El botón de ajustes superior se oculta en TV porque ya existe en el menú lateral.
+- Continuar viendo queda navegable con control remoto.
+- No toca reproductores, cast/DLNA, búsqueda, descargas ni AndroidManifest.

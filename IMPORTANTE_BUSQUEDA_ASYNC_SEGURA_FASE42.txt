@@ -1,0 +1,5 @@
+Fase 42 - Busqueda async segura
+
+Esta fase revierte la búsqueda con Isolate.run porque en algunos dispositivos/modelos devolvía error general de búsqueda. Se mantiene el botón BUSCAR, se oculta el teclado antes de buscar y el filtrado se hace en lotes pequeños con pausas para no bloquear la interfaz.
+
+TV Online, Películas y Series siguen buscando en paralelo a nivel de tareas async, pero sin mover objetos complejos a isolates.

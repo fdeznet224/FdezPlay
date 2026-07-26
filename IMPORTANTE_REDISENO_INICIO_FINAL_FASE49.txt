@@ -1,0 +1,17 @@
+FdezPlay - Fase 49
+Rediseño final del Inicio limpio.
+
+Orden del Inicio:
+1. Card grande rotativa de Recién agregado.
+2. Continuar viendo.
+3. Películas en tendencia.
+4. Series en tendencia.
+
+Se eliminaron del Inicio:
+- Explorar / accesos rápidos.
+- Agregados recientemente como fila separada.
+- Películas para ti.
+- Series para ti.
+- Descargando ahora.
+
+No modifica reproductores, búsqueda, login, descargas ni AndroidManifest.

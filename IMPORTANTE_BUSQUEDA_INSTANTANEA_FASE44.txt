@@ -1,0 +1,15 @@
+Fase 44 - Busqueda instantanea indexada
+
+Cambios:
+- La busqueda global vuelve a buscar mientras escribes, pero usando el indice liviano de la Fase 43.
+- Se quita el boton BUSCAR de la pantalla global de TV: escribir ya actualiza resultados automaticamente.
+- TV Online, Peliculas y Series comparten el mismo motor indexado.
+- Se evita duplicar cargas del catalogo si escribes varias letras rapido.
+- Peliculas y Series en movil/tablet usan busqueda por letra con debounce ligero y precarga del indice.
+- Se redujo el texto pesado del indice de peliculas/series para no comparar sinopsis completas en cada letra.
+
+Aplicar desde la raiz:
+unzip -o FdezPlay_Busqueda_Instantanea_Indexada_Fase44.zip -d .
+flutter clean
+flutter pub get
+flutter run

@@ -1,0 +1,28 @@
+FdezPlay - Fase 46: Rediseño premium del Inicio
+
+Aplica únicamente la pantalla de Inicio compartida por móvil, tablet y TV.
+
+Cambios:
+- Fondo oscuro con degradado premium.
+- Hero principal más grande y visual.
+- Accesos rápidos premium debajo del hero.
+- Secciones limpias: continuar viendo, descargado, tendencia, recientes, favoritos y recomendaciones.
+- Tarjetas más grandes en TV y mejor proporción en móvil.
+- Botones de sección tipo pill.
+- Uso de AppCachedImage para reducir parpadeos y cargas repetidas de imágenes.
+- Foco neón conservado en TV.
+
+No modifica:
+- Login.
+- Reproductores VLC.
+- Descargas.
+- Búsqueda indexada.
+- TV Online.
+- Películas/Series catálogo.
+- AndroidManifest.
+
+Aplicar desde la raíz del proyecto:
+unzip -o FdezPlay_Rediseno_Inicio_Premium_Fase46.zip -d .
+flutter clean
+flutter pub get
+flutter run

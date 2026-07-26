@@ -1,0 +1,14 @@
+FdezPlay Fase 58 - TV estable en Onn Stick
+
+Cambios:
+- Inicio TV usa card compacta sin imagen pesada para evitar trabas.
+- En TV se reducen alturas y espacios de las filas del Inicio.
+- Buscador TV no abre teclado automáticamente al entrar.
+- Buscador TV usa índice y carga resultados de forma escalonada para no saturar el Onn.
+- Ajustes corrige overflow de MiniStatCard que causaba rayas amarillas/negras en debug.
+
+Aplicar desde la raíz del proyecto:
+unzip -o FdezPlay_TV_Onn_Inicio_Busqueda_Estable_Fase58.zip -d .
+flutter clean
+flutter pub get
+flutter run -d 192.168.1.126:5555
