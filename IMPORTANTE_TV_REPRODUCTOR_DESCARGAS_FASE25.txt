@@ -1,9 +1,0 @@
-Fase 25 - TV: reproductor, regreso a detalle y descargas ocultas
-
-Cambios:
-- En reproductores de Películas y Series para TV, flecha derecha adelanta 10 segundos cuando el foco está en reproducir/pausar.
-- Flecha izquierda retrocede 10 segundos cuando el foco está en reproducir/pausar.
-- Botones multimedia de adelantar/retroceder también hacen seek de 10 segundos cuando el control los envía.
-- Al regresar desde el reproductor de Películas o Series en TV, se conserva la pantalla de detalle y se evita el doble-back que mandaba directo al catálogo.
-- Se ocultan opciones de descarga en modo TV: Inicio, Ajustes, detalle de Película y episodios/temporadas de Series.
-- Audio/Subtítulos quedan como controles del reproductor; Ajustes solo guarda preferencias por defecto.

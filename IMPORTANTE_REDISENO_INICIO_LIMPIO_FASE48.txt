@@ -1,9 +1,0 @@
-FdezPlay - Fase 48
-
-Rediseño del Inicio más limpio y profesional:
-- Se elimina la sección Explorar del Inicio porque ya existe navbar.
-- Se elimina la fila de tarjetas rápidas TV/Películas/Series debajo del hero.
-- Hero principal ahora rota automáticamente entre hasta 5 recomendaciones de tendencia.
-- Se mantienen secciones útiles y ordenadas: Continuar viendo, Descargando ahora, Películas en tendencia, Series en tendencia, Agregados recientemente, Películas para ti y Series para ti.
-- El bloque de descargas solo aparece cuando hay descargas activas, para no saturar el Inicio.
-- No toca login, reproductores, búsqueda, descargas, TV Online ni AndroidManifest.
